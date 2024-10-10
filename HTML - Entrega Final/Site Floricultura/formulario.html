@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emma Flori - Formulário</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <header>
+        <h1>Emma Flori</h1>
+        <h2>Flores italianas que trazem um toque de amore!</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="flores.html">Flores</a></li>
+                <li><a href="contato.html" rel="prev">Contato</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" />
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" />
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" />
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="idade" />
+            <label for="cor">Qual a cor de flor você acha mais bonita? </label>
+            <select name="cor" id="cor">
+                <option value="vermelho">Vermelho</option>
+                <option value="azul">Azul</option>
+                <option value="amarelo">Amarelo</option>
+                <option value="rosa">Rosa</option>
+                <option value="roxo">Roxo</option>
+            </select>
+            <button>Enviar</button>
+        </form>
+    </main>
+    <hr />
+    <footer>
+        <p>&copy; 2024 Emma Flori. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
